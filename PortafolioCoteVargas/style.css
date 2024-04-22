@@ -1,0 +1,152 @@
+body,
+html {
+  background-color: #f0f0f0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: justify;
+}
+
+.rowTop {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  z-index: 10000;
+}
+
+.contenedor {
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+}
+
+.navbar-toggler {
+  border-color: #444144;
+}
+
+.titleName {
+  color: #444144 !important;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+}
+
+.titleFooter {
+  color: white;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+}
+
+.navbarTitle {
+  color: #444144;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+  transition: 0.3s;
+}
+
+.navbarTitle:hover {
+  color: #61d0d4;
+}
+
+.normalLetter {
+  color: #444144;
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbarNames {
+  color: #444144;
+  font-family: "Charmonman", cursive;
+  font-family: "Notable", sans-serif;
+  transition: 0.3s;
+}
+
+.navbarNames:hover {
+  color: #61d0d4;
+}
+
+.btnProfile {
+  background-color: #e83556;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+}
+
+.linea {
+  display: inline;
+}
+
+.btnProjects {
+  background-color: #61d0d4;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btnProjects:hover {
+  background-color: #61d0d460;
+}
+
+.imgProfile {
+  border-radius: 16px;
+}
+
+.btnContact {
+  background-color: #d1c926;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btnContact:hover {
+  background-color: #d1c9265e;
+}
+
+.footer {
+  background-color: #e83556;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.rowFooter {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerLetter {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #61d0d4;
+}
+
+.ancho {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .margin {
+    margin-top: 1vh !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .contenedor {
+    margin-top: 7rem !important;
+  }
+}

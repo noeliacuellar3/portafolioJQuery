@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./sources/Fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    
+}
+
+a {
+    text-decoration: none; /*eliminar el subrayador*/   
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta {
+    background: #fff;
+    margin: 40px 0;
+    border-radius: 5px; /*bordes redondeados*/
+    overflow: hidden; /*ocultar todo lo que este fuera del contenedor*/
+    z-index: 1000;
+    width: 100%;
+}
+
+
+/* ------------SLIDER BANNER ------------------*/
+/* --------------------------------------------*/
+.slider-banner {
+    /*ocultar las imagenes de la par solo mostrar la que este en el centro */
+    overflow: hidden;
+    z-index: 1000;
+    position: relative;     
+}
+
+.slider-banner .banner {
+    position: relative;
+    width: 100%;
+}
+
+.slider-banner .banner img {
+    vertical-align: top;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.slider-banner .flecha-banner {
+    font-size: 35px;
+    line-height: 35px;
+    color: rgba(184, 178, 178, 0.2);
+    position: absolute;
+    top: 50%;
+    z-index: 1100;
+}
+
+.slider-banner .flecha-banner:hover {
+    color: rgba(184, 178, 178, 0.5);
+}
+
+.slider-banner .anterior {
+    left: 20px;
+}
+
+.slider-banner .siguiente {
+    right: 20px;
+}
+
+
+/*-----------------SLIDER INFO-----------------*/
+/* --------------------------------------------*/
+.slider-info {
+    text-align: center;
+    overflow: hidden; /*ocultar todo lo que este fuera del limite del contenedor*/
+    padding: 20px 0;
+    position: relative;
+}
+/*INFORMACION*/
+.slider-info .informacion {
+    width: 100%;
+}
+
+.slider-info .informacion article {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-info .informacion article .slide {
+    background: white;
+    width: 100%;
+    left: 100%;
+    position: absolute;
+    padding: 20px 80px;
+}
+
+.slider-info .flecha-info {
+    font-size: 35px;
+    line-height: 35px;
+    color: #e6e6e6;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+}
+
+.slider-info .flecha-info:hover {
+    color: #6ed279;
+}
+
+.slider-info .anterior {
+    left: 20px;
+}
+
+.slider-info .siguiente {
+    right: 20px;
+}
+
+/*Animaciones para la Info*/
+.slider-info .informacion .nombre {
+    color: #444;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.slider-info .informacion .trabajo {
+    color: #55acee;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+.slider-info .informacion .pais {
+    color: #8d8d8d;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.slider-info .informacion .pais img {
+    position: relative;
+    top: 3px;
+    margin-right: 1px;
+}
+
+.slider-info .informacion .texto {
+    color: #55acee;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.slider-info .informacion .subtitulo {
+    color: #444;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+/* CIRCULOS DEL SLIDER INFO */
+.slider-info .botones {
+    width: 100%;
+}
+
+.slider-info .botones span {
+    width: 12px;
+    height: 12px;
+    display: inline-block; /*para poder modificar el alto y el ancho*/
+    margin: 0 10px;
+    border-radius: 50%;
+    background: #e6e6e6;
+}
+
+.slider-info .botones .active {
+    background: #6ed279;
+}
+
+/*REDES SOCIALES*/
+.redes-sociales {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 20px;
+    padding: 14px 0;
+    color: white ;
+    background: black;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.redes-sociales .github {background: black ;}
+.redes-sociales .linkedin {background: #23365c;}
+.redes-sociales .facebook {background: #3b5998;}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Portafolio Diego Alvarez</title>
+
+    <!--FONT AWESOME (font awesome cdn en google)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!--FUENTE LETRA GOOGLE-OPEN-SANS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <!--MI CSS-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<div class="contenedor">
+    <section class="tarjeta">
+
+        <section class="slider-banner">
+            <div class="banner" id="banner"> 
+                <img class="slide active" src="./sources/JScaptura.png" alt="portafolio">
+                <img class="slide" src="./sources/HtmlCapturaE.png" alt="portafolio">
+                <img class="slide" src="./sources/ReactCaptura.PNG" alt="portafolio">
+                <img class="slide" src="./sources/CsharpCapturaE.png" alt="portafolio"> 
+            </div>
+
+            <a href="#" id="banner-prev" class="flecha-banner anterior"><i class="fas fa-angle-double-left"></i></a>
+            <a href="#" id="banner-next" class="flecha-banner siguiente"><i class="fas fa-angle-double-right"></i></a>
+        </section>
+
+        <section class="slider-info"> <!--ID es para JS y Class es para CSS-->
+            <a href="#" id="info-prev" class="flecha-info anterior"><i class="fas fa-angle-double-left"></i></a>
+            <a href="#" id="info-next" class="flecha-info siguiente"><i class="fas fa-angle-double-right"></i></a>
+
+            <section id="informacion" class="informacion"> 
+                <article id="info">
+                    <div class="slide active">
+                        <h1 class="nombre">Diego Alvarez</h1>
+                        <p class="trabajo">Programador y Desarrollador Web</p>
+                        <p class="pais"> <img src="./sources/banderaCR2.png" alt="bandera Costa Rica"> Costa Rica</p>
+                    </div>
+
+                    <div class="slide">
+                        <h2 class="subtitulo">Lorem ipsum dolor sit.</h2>
+                        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vero quos amet laborum consequuntur delectus magni velit fuga nobis porro?</p>
+                    </div>
+
+                    <div class="slide">
+                        <h2 class="subtitulo">Texto numero 2.</h2>
+                        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vero quos amet laborum consequuntur delectus magni velit fuga nobis porro? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat.</p>
+                    </div>
+                </article>
+                <div class="botones" id="botones">
+                   
+            </section> 
+        </section>
+
+        <section class="redes-sociales">
+            <a href="https://github.com/Alvarez1997" class="github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/programador-diego-alvarez/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        </section>
+
+    </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="./main.js"></script>
+
+</body>
+</html>
